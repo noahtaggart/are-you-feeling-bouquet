@@ -21,8 +21,20 @@ export const fetchFlowers = () => {
         }
     )
 }
+export const fetchRetailers = () => {
+    return fetch(`${API}/retailers`)
+    .then(response => response.json())
+    .then(
+        (retailers) => {
+            applicationState.retailers = retailers
+        }
+    )
+}
 
 //exports copies of database arrays
 export const getFlowers = () => {
     return applicationState.flowers.map(flower => ({...flower}))
+}
+export const getRetailers = () => {
+    return applicationState.retailers.map(retailer => ({...retailer}))
 }
