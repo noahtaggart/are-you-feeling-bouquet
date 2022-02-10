@@ -1,4 +1,5 @@
 import { FLowersList } from "./FlowersList.js"
+import { RetailerList } from "./RetailerList.js"
 
 export const FlowerMarket = () => {
     return `
@@ -7,5 +8,10 @@ export const FlowerMarket = () => {
     <section class="flowerList">
         ${FLowersList()}
     </section>
+    <section class="retailerList">
+    <h2>Retailer List</h2>
+        ${RetailerList()}
+    </section>
+    <sect
     `
 }

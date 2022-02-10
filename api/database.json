@@ -25,5 +25,47 @@
             "commonName": "Dahlia",
             "color": "Black"
         }
+    ],
+    "retailers": [
+        {
+            "id":1,
+            "retailerName":"I'll take you to the flower shop",
+            "city":"Nashville",
+            "state":"TN",
+            "addresss": "100 Main Street"
+            
+        },
+        {
+            "id":2,
+            "retailerName":"Flowers R Us",
+            "city":"Franklin",
+            "state":"TN",
+            "addresss": "102 Main Street"
+            
+        },
+        {
+            "id":3,
+            "retailerName":"FLower Depot",
+            "city":"Brentwood",
+            "state":"TN",
+            "addresss": "100 Rich Street"
+            
+        },
+        {
+            "id":4,
+            "retailerName":"FlowerMart",
+            "city":"Dickson",
+            "state":"TN",
+            "addresss": "100 Broadway"
+            
+        },
+        {
+            "id":5,
+            "retailerName":"Huntsville Flower Emporium",
+            "city":"Huntsville",
+            "state":"AL",
+            "address": "300 Rocket Ave"
+            
+        }
     ]
 }
