@@ -32,7 +32,8 @@
             "retailerName":"I'll take you to the flower shop",
             "city":"Nashville",
             "state":"TN",
-            "addresss": "100 Main Street"
+            "address": "100 Main Street",
+            "distributorId":1
             
         },
         {
@@ -40,15 +41,17 @@
             "retailerName":"Flowers R Us",
             "city":"Franklin",
             "state":"TN",
-            "addresss": "102 Main Street"
+            "address": "102 Main Street",
+            "distributorId":2
             
         },
         {
             "id":3,
-            "retailerName":"FLower Depot",
+            "retailerName":"Flower Depot",
             "city":"Brentwood",
             "state":"TN",
-            "addresss": "100 Rich Street"
+            "address": "100 Rich Street",
+            "distributorId":3
             
         },
         {
@@ -56,7 +59,8 @@
             "retailerName":"FlowerMart",
             "city":"Dickson",
             "state":"TN",
-            "addresss": "100 Broadway"
+            "address": "100 Broadway",
+            "distributorId":1
             
         },
         {
@@ -64,8 +68,35 @@
             "retailerName":"Huntsville Flower Emporium",
             "city":"Huntsville",
             "state":"AL",
-            "address": "300 Rocket Ave"
+            "address": "300 Rocket Ave",
+            "distributorId":2
             
+        }
+    ],
+    "distributors":[
+        {
+            "id":1,
+            "distributorName":"Martag Distributing",
+            "city":"New York City",
+            "state":"NY",
+            "address":"5000 Country Ln"
+
+        },
+        {
+            "id":2,
+            "distributorName":"UPS",
+            "city":"Old York City",
+            "state":"OY",
+            "address":"5000 Metropolitan Ln"
+
+        },
+        {
+            "id":3,
+            "distributorName":"Fedex",
+            "city":"Memphis",
+            "state":"TN",
+            "address":"5 Beale Street"
+
         }
     ]
 }
