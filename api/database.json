@@ -1,102 +1,280 @@
 {
     "flowers": [
         {
-            "id":1,
+            "id": 1,
             "commonName": "Rose",
             "color": "Red"
         },
         {
-            "id":2,
-            "commonName":"Rose",
-            "color":"White"
+            "id": 2,
+            "commonName": "Rose",
+            "color": "White"
         },
         {
-            "id":3,
+            "id": 3,
             "commonName": "Lily",
             "color": "Purple"
         },
         {
-            "id":4,
+            "id": 4,
             "commonName": "Tulip",
             "color": "Pink"
         },
         {
-            "id":5,
+            "id": 5,
             "commonName": "Dahlia",
             "color": "Black"
         }
     ],
     "retailers": [
         {
-            "id":1,
-            "retailerName":"I'll take you to the flower shop",
-            "city":"Nashville",
-            "state":"TN",
+            "id": 1,
+            "retailerName": "I'll take you to the flower shop",
+            "city": "Nashville",
+            "state": "TN",
             "address": "100 Main Street",
-            "distributorId":1
-            
+            "distributorId": 1
         },
         {
-            "id":2,
-            "retailerName":"Flowers R Us",
-            "city":"Franklin",
-            "state":"TN",
+            "id": 2,
+            "retailerName": "Flowers R Us",
+            "city": "Franklin",
+            "state": "TN",
             "address": "102 Main Street",
-            "distributorId":2
-            
+            "distributorId": 2
         },
         {
-            "id":3,
-            "retailerName":"Flower Depot",
-            "city":"Brentwood",
-            "state":"TN",
+            "id": 3,
+            "retailerName": "Flower Depot",
+            "city": "Brentwood",
+            "state": "TN",
             "address": "100 Rich Street",
-            "distributorId":3
-            
+            "distributorId": 3
         },
         {
-            "id":4,
-            "retailerName":"FlowerMart",
-            "city":"Dickson",
-            "state":"TN",
+            "id": 4,
+            "retailerName": "FlowerMart",
+            "city": "Dickson",
+            "state": "TN",
             "address": "100 Broadway",
-            "distributorId":1
-            
+            "distributorId": 1
         },
         {
-            "id":5,
-            "retailerName":"Huntsville Flower Emporium",
-            "city":"Huntsville",
-            "state":"AL",
+            "id": 5,
+            "retailerName": "Huntsville Flower Emporium",
+            "city": "Huntsville",
+            "state": "AL",
             "address": "300 Rocket Ave",
-            "distributorId":2
-            
+            "distributorId": 2
         }
     ],
-    "distributors":[
+    "distributors": [
         {
-            "id":1,
-            "distributorName":"Martag Distributing",
-            "city":"New York City",
-            "state":"NY",
-            "address":"5000 Country Ln"
-
+            "id": 1,
+            "distributorName": "Martag Distributing",
+            "city": "New York City",
+            "state": "NY",
+            "address": "5000 Country Ln"
         },
         {
-            "id":2,
-            "distributorName":"UPS",
-            "city":"Old York City",
-            "state":"OY",
-            "address":"5000 Metropolitan Ln"
-
+            "id": 2,
+            "distributorName": "UPS",
+            "city": "Old York City",
+            "state": "OY",
+            "address": "5000 Metropolitan Ln"
         },
         {
-            "id":3,
-            "distributorName":"Fedex",
-            "city":"Memphis",
-            "state":"TN",
-            "address":"5 Beale Street"
-
+            "id": 3,
+            "distributorName": "Fedex",
+            "city": "Memphis",
+            "state": "TN",
+            "address": "5 Beale Street"
         }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Photobean"
+        },
+        {
+            "id": 2,
+            "name": "Skinder"
+        },
+        {
+            "id": 3,
+            "name": "Rhybox"
+        },
+        {
+            "id": 4,
+            "name": "Rhynyx"
+        },
+        {
+            "id": 5,
+            "name": "Rhycero"
+        }
+    ],
+    "nurseryFlowerBridges": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 2,
+            "flowerId": 1
+        },
+        {
+            "id": 3,
+            "nurseryId": 3,
+            "flowerId": 1
+        },
+        {
+            "id": 4,
+            "nurseryId": 4,
+            "flowerId": 1
+        },
+        {
+            "id": 5,
+            "nurseryId": 5,
+            "flowerId": 1
+        },
+        {
+            "id": 6,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 7,
+            "nurseryId": 2,
+            "flowerId": 2
+        },
+        {
+            "id": 8,
+            "nurseryId": 3,
+            "flowerId": 2
+        },
+        {
+            "id": 9,
+            "nurseryId": 4,
+            "flowerId": 2
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "flowerId": 2
+        },
+        {
+            "id": 11,
+            "nurseryId": 1,
+            "flowerId": 3
+        },
+        {
+            "id": 12,
+            "nurseryId": 2,
+            "flowerId": 3
+        },
+        {
+            "id": 13,
+            "nurseryId": 3,
+            "flowerId": 3
+        },
+        {
+            "id": 14,
+            "nurseryId": 4,
+            "flowerId": 3
+        },
+        {
+            "id": 15,
+            "nurseryId": 5,
+            "flowerId": 3
+        },
+        {
+            "id": 16,
+            "nurseryId": 1,
+            "flowerId": 4
+        },
+        {
+            "id": 17,
+            "nurseryId": 2,
+            "flowerId": 4
+        },
+        {
+            "id": 18,
+            "nurseryId": 3,
+            "flowerId": 4
+        },
+        {
+            "id": 19,
+            "nurseryId": 4,
+            "flowerId": 4
+        },
+        {
+            "id": 20,
+            "nurseryId": 5,
+            "flowerId": 4
+        },
+        {
+            "id": 21,
+            "nurseryId": 1,
+            "flowerId": 5
+        },
+        {
+            "id": 22,
+            "nurseryId": 2,
+            "flowerId": 5
+        },
+        {
+            "id": 23,
+            "nurseryId": 3,
+            "flowerId": 5
+        },
+        {
+            "id": 24,
+            "nurseryId": 4,
+            "flowerId": 5
+        },
+        {
+            "id": 25,
+            "nurseryId": 5,
+            "flowerId": 5
+        }
+    ],
+    "nurseryDistributionBridges": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 2,
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "nurseryId": 3,
+            "distributorId": 2
+        },
+        {
+            "id": 4,
+            "nurseryId": 5,
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "nurseryId": 5,
+            "distributorId": 3
+        },
+        {
+            "id": 6,
+            "nurseryId": 1,
+            "distributorId": 3
+        },
+        {"id":7,
+        "nurseryId":4,
+    "distributorId":1}
+
+
     ]
 }
