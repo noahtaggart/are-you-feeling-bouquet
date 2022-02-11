@@ -1,4 +1,6 @@
+import { DistributorsList } from "./DistributorsList.js"
 import { FLowersList } from "./FlowersList.js"
+import { Nurseries } from "./Nurseries.js"
 import { RetailerList } from "./RetailerList.js"
 
 export const FlowerMarket = () => {
@@ -12,6 +14,13 @@ export const FlowerMarket = () => {
     <h2>Retailer List</h2>
         ${RetailerList()}
     </section>
-    <sect
+    <section class="distributorList">
+    <h2>Distributor List</h2>
+        ${DistributorsList()}
+    </section>
+    <section class="nurseryList">
+    <h2>Nursery List</h2>
+        ${Nurseries()}
+    </section>
     `
 }
